@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Application</title>
+</head>
+
+<div id="app">
+    <h1 v-if="visible">{{ message }}</h1>
+
+    <ol>
+        <li v-for="item in shopping_list">
+            {{ item.name }}
+        </li>
+    </ol>
+
+</div>
+
+
+
+<body>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
