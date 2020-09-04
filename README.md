@@ -1,2 +1,3 @@
 # Seng365 - Web Computing Architectures
-Git repo for Seng365_2020_S2
+Git repo for designing web api and reactive web page.
+
